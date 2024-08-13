@@ -1,0 +1,29 @@
+{
+	"name": "downdraft",
+	"version": "1.0.0",
+	"description": "Convert Markdown source to rich HTML in your clipboard (macOS only).",
+	"main": "index.js",
+	"bin": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jhuckaby/downdraft.git"
+	},
+	"keywords": [
+		"markdown",
+		"clipboard",
+		"macos"
+	],
+	"author": "Joseph Huckaby",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jhuckaby/downdraft/issues"
+	},
+	"homepage": "https://github.com/jhuckaby/downdraft#readme",
+	"dependencies": {
+		"highlight.js": "9.15.10",
+		"marked": "0.8.0",
+		"juice": "7.0.0",
+		"pixl-args": "^1.0.0",
+		"he": "1.1.1"
+	}
+}

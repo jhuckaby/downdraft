@@ -1,0 +1,31 @@
+/* Email specific styles */
+/* Only used in e-mail generation, not sent to browser */
+
+div.email_wrapper {
+	background-color: white;
+	font-family: helvetica,sans-serif; 
+	font-size: 14px;
+}
+
+div.email_header {
+	padding: 30px 30px 0px 30px;
+}
+
+div.email_attrib_label {
+	font-size: 14px;
+	color: var(--label-color);
+	font-style: italic;
+}
+
+div.email_attrib_content {
+	font-size: 14px;
+	color: var(--body-text-color);
+	font-weight: bold;
+}
+
+div.email_footer {
+	padding: 0px 30px 30px 30px;
+	font-size: 11px; 
+	color: var(--icon-color);
+}
+
